@@ -1,0 +1,25 @@
+.dashboard_container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.text-info {
+	text-align: center;
+	margin-top: 3em;
+	padding: 5em;
+	height: auto;
+	display: block;
+	border-radius: 0.25em;
+	box-shadow: 0 3px  5px rgba(0, 130, 29, 0.7);
+	border: 0.1em solid rgba(0, 130, 29, 0.3);
+}
+
+.text-info p {
+	color: black;
+	font-size: 1em;
+}
+
+.count {
+
+}
