@@ -2,6 +2,12 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Screenshots
+
+!(Image of items in cart)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/cart.png?raw=true]
+!(Image of evergreens category)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/category.png?raw=true]
+!()[https://github.com/Lilymayh/jungle-rails/blob/master/docs/cart.png?raw=true]
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
