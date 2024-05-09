@@ -26,17 +26,19 @@ class OrdersController < ApplicationController
   end
 
   def perform_stripe_charge
+    description = current_user ? "#{current_user.name}'s Jungle Order" : "Jungle Order"
+
     Stripe::Charge.create(
       source:      params[:stripeToken],
       amount:      cart_subtotal_cents,
-      description: "Khurram Virani's Jungle Order",
+      description: description,
       currency:    'cad'
     )
   end
 
   def create_order(stripe_charge)
     order = Order.new(
-      email: params[:stripeEmail],
+      email: user_email,
       total_cents: cart_subtotal_cents,
       stripe_charge_id: stripe_charge.id, # returned by stripe
     )
