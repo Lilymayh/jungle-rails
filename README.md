@@ -1,12 +1,13 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+Welcome to the Jungle! A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example. 
+Goal: Follow step by step instructions to fix bugs and add features, simulating job experience.
 
 ## Screenshots
 
-!(Image of items in cart)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/cart.png?raw=true]
-!(Image of evergreens category)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/category.png?raw=true]
-!(Add products in admin)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/Admin_products.png?raw=true]
+![Image of items in cart](https://github.com/Lilymayh/jungle-rails/blob/master/docs/cart.png?raw=true)
+![Image of evergreens category](https://github.com/Lilymayh/jungle-rails/blob/master/docs/category.png?raw=true)
+!["Add products in admin"](https://github.com/Lilymayh/jungle-rails/blob/master/docs/admin_products.png?raw=true)
 
 ## Setup
 
