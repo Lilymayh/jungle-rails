@@ -6,7 +6,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 !(Image of items in cart)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/cart.png?raw=true]
 !(Image of evergreens category)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/category.png?raw=true]
-!()[]
+!(Add products in admin)[https://github.com/Lilymayh/jungle-rails/blob/master/docs/Admin_products.png?raw=true]
 
 ## Setup
 
